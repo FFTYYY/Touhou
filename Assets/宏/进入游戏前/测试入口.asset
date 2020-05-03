@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: "\u6D4B\u8BD5\u5165\u53E3"
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":-328.981,"y":67.76206},"zoom":0.8,"elements":[{"coroutine":false,"defaultValues":{"key":{"$content":"Space","$type":"UnityEngine.KeyCode"},"action":{"$content":"Down","$type":"Ludiq.PressState"}},"position":{"x":-353.0,"y":-204.0},"guid":"c981f81b-0cd6-4cb9-b695-dc315271f5f8","$version":"A","$type":"Bolt.OnKeyboardInput","$id":"9"},{"chainable":false,"member":{"name":"LoadScene","parameterTypes":["System.String"],"targetType":"UnityEngine.SceneManagement.SceneManager","targetTypeName":"UnityEngine.SceneManagement.SceneManager","$version":"A"},"defaultValues":{"%sceneName":{"$content":"\u4e00\u9762","$type":"System.String"}},"position":{"x":-86.0,"y":-135.0},"guid":"20f2cd13-7074-4913-9cb8-b6e5ec89cf83","$version":"A","$type":"Bolt.InvokeMember","$id":"11"},{"defaultValues":{"input":{"$content":10.0,"$type":"System.Single"}},"position":{"x":-536.0,"y":106.0},"guid":"3c48c65d-4e61-4fbc-8cac-39ee8c9c94ca","$version":"A","$type":"Bolt.ScalarPerSecond","$id":"14"},{"chainable":false,"member":{"name":"Rotate","parameterTypes":["System.Single","System.Single","System.Single","UnityEngine.Space"],"targetType":"UnityEngine.Transform","targetTypeName":"UnityEngine.Transform","$version":"A"},"defaultValues":{"target":null,"%xAngle":{"$content":10.0,"$type":"System.Single"},"%yAngle":{"$content":0.0,"$type":"System.Single"},"%zAngle":{"$content":0.0,"$type":"System.Single"},"%relativeTo":{"$content":"World","$type":"UnityEngine.Space"}},"position":{"x":-244.0,"y":-15.0},"guid":"cd1840f3-7643-462d-9c14-ab4e175beba0","$version":"A","$type":"Bolt.InvokeMember","$id":"16"},{"coroutine":false,"defaultValues":{},"position":{"x":-478.0,"y":-24.0},"guid":"b9b3e781-155d-40d5-beca-38db95ef4cdf","$version":"A","$type":"Bolt.FixedUpdate","$id":"19"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"11"},"destinationKey":"enter","guid":"6b26cdcb-a65e-4164-bd6b-0a8cb3fc0d2b","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"19"},"sourceKey":"trigger","destinationUnit":{"$ref":"16"},"destinationKey":"enter","guid":"73551e4c-33dc-48f5-9876-0ac0e65ce1da","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"14"},"sourceKey":"output","destinationUnit":{"$ref":"16"},"destinationKey":"%zAngle","guid":"5859f372-db2b-4442-86b2-b6be75625f4e","$type":"Bolt.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
