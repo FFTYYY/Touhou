@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: "\u654C\u673A-\u6B7B\u4EA1\u8F6C\u79FB"
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"\u654c\u673a-\u6b7b\u4ea1\u8f6c\u79fb","summary":null,"pan":{"x":159.0,"y":27.0},"zoom":1.0,"elements":[{"defaultValues":{},"position":{"x":100.0,"y":-50.0},"guid":"370d97f0-f4dd-4bd4-8659-e2784aa00ff6","$version":"A","$type":"Bolt.TriggerStateTransition","$id":"9"},{"argumentCount":0,"coroutine":false,"defaultValues":{"target":null,"name":{"$content":"\u8840\u91cf\u5f52\u96f6","$type":"System.String"}},"position":{"x":-128.0,"y":-61.0},"guid":"18cee45a-3186-4931-b491-f5bf5edf00d5","$version":"A","$type":"Bolt.CustomEvent","$id":"11"},{"sourceUnit":{"$ref":"11"},"sourceKey":"trigger","destinationUnit":{"$ref":"9"},"destinationKey":"trigger","guid":"009f109c-e803-415f-8c07-268e718f9747","$type":"Bolt.ControlConnection"}],"$version":"A"}}'
+    _objectReferences: []
