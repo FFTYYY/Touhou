@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2035912452871692887}
   - component: {fileID: 3978609622728505796}
   - component: {fileID: 181290542363719784}
+  - component: {fileID: 4870046274861272395}
   m_Layer: 0
   m_Name: "\u5B9A\u5411\u5F39-1"
   m_TagString: "\u654C\u673A\u5B50\u5F39"
@@ -26,7 +27,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2035912452871692904}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -2}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 100, y: 100, z: 1}
   m_Children:
   - {fileID: 2035912452952983421}
@@ -46,7 +47,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"\u5c04\u901f","value":{"$content":5,"$type":"System.Int32"},"$version":"A"},{"name":"\u65b9\u5411","value":{"x":0.0,"y":0.0,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"\u5c04\u901f","value":{"$content":5,"$type":"System.Int32"},"$version":"A"},{"name":"\u65b9\u5411","value":{"x":-0.5864787,"y":-0.8099647,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!114 &181290542363719784
 MonoBehaviour:
@@ -64,6 +65,22 @@ MonoBehaviour:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
     - {fileID: 11400000, guid: 49e4cfea1bd018e43a3e403893d0ba55, type: 2}
+--- !u!58 &4870046274861272395
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2035912452871692904}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.1
 --- !u!1 &2035912452952983422
 GameObject:
   m_ObjectHideFlags: 0
