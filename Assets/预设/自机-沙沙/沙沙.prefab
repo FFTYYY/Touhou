@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3403905809663113364}
   m_Layer: 0
   m_Name: "\u5F62\u8C61"
-  m_TagString: Untagged
+  m_TagString: "\u73A9\u5BB6\u5F62\u8C61"
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -92,6 +92,7 @@ GameObject:
   - component: {fileID: 3403905810114858387}
   - component: {fileID: 3403905810114858477}
   - component: {fileID: 1990505279}
+  - component: {fileID: 940265661}
   m_Layer: 0
   m_Name: "\u6C99\u6C99"
   m_TagString: "\u81EA\u673A"
@@ -129,9 +130,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _data:
     _json: '{"declarations":{"collection":{"$content":[{"name":"\u7981\u6b62\u79fb\u52a8","value":{"$content":[false,false,false,false],"$type":"System.Collections.Generic.List`1[[System.Boolean,
-      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"$version":"A"},{"name":"\u79fb\u52a8\u901f\u5ea6-\u6b63\u5e38","value":{"$content":8,"$type":"System.Int32"},"$version":"A"},{"name":"\u79fb\u52a8\u901f\u5ea6-\u4f4e\u901f","value":{"$content":3,"$type":"System.Int32"},"$version":"A"},{"name":"\u5f53\u524d\u4f4e\u901f","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"\u5c04\u51fb\u9891\u7387","value":{"$content":6,"$type":"System.Int32"},"$version":"A"},{"name":"\u666e\u901a\u5f39","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Power","value":{"$content":1,"$type":"System.Int32"},"$version":"A"},{"name":"\u547d\u6570","value":{"$content":2,"$type":"System.Int32"},"$version":"A"},{"name":"Bomb","value":{"$content":3,"$type":"System.Int32"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"$version":"A"},{"name":"\u79fb\u52a8\u901f\u5ea6-\u6b63\u5e38","value":{"$content":8,"$type":"System.Int32"},"$version":"A"},{"name":"\u79fb\u52a8\u901f\u5ea6-\u4f4e\u901f","value":{"$content":3,"$type":"System.Int32"},"$version":"A"},{"name":"\u5f53\u524d\u4f4e\u901f","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"\u5c04\u51fb\u9891\u7387","value":{"$content":6,"$type":"System.Int32"},"$version":"A"},{"name":"\u666e\u901a\u5f39","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Power","value":{"$content":1,"$type":"System.Int32"},"$version":"A"},{"name":"\u547d\u6570","value":{"$content":8,"$type":"System.Int32"},"$version":"A"},{"name":"Bomb","value":{"$content":3,"$type":"System.Int32"},"$version":"A"},{"name":"Bomb\u4f24\u5bb3","value":{"$content":200.0,"$type":"System.Single"},"$version":"A"},{"name":"Bomb\u7279\u6548","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 3538336460676372126, guid: b85fd66d4e3a9c44991258d192b2bd76, type: 3}
+    - {fileID: 658891902251392849, guid: e67de86cae7c5214293eb4cce0d9f776, type: 3}
 --- !u!114 &1990505279
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -148,6 +150,22 @@ MonoBehaviour:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
     - {fileID: 11400000, guid: a71d17dced7ea35409f5d51fb22f459e, type: 2}
+--- !u!70 &940265661
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3403905810114858386}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.5, y: 0.5}
+  m_Direction: 0
 --- !u!1 &4381884672976674359
 GameObject:
   m_ObjectHideFlags: 0
@@ -164,7 +182,7 @@ GameObject:
   - component: {fileID: 3783365543123356432}
   m_Layer: 0
   m_Name: "\u5224\u5B9A\u70B9"
-  m_TagString: Untagged
+  m_TagString: "\u5224\u5B9A\u70B9"
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -177,7 +195,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4381884672976674359}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.004, y: -0.05, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.6380242, y: 0.6365445, z: 1}
   m_Children: []
   m_Father: {fileID: 3403905810114858387}
@@ -223,7 +241,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -272,11 +290,11 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4381884672976674359}
-  m_BodyType: 2
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 1
-  m_Mass: 81.84727
+  m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0
   m_GravityScale: 0
@@ -295,7 +313,7 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.0000000037252903, y: 0.0000009536743}
