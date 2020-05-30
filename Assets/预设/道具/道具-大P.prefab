@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 1523871285256499071}
   - component: {fileID: 8203181324094692911}
   m_Layer: 0
-  m_Name: "\u9053\u5177-P"
+  m_Name: "\u9053\u5177-\u5927P"
   m_TagString: "\u9053\u5177"
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -80,7 +80,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.2, y: 0.2}
+  m_Size: {x: 0.3, y: 0.3}
   m_EdgeRadius: 0
 --- !u!114 &1523871285256499071
 MonoBehaviour:
@@ -95,7 +95,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"\u540d","value":{"$content":"P","$type":"System.String"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"\u540d","value":{"$content":"\u5927P","$type":"System.String"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!114 &8203181324094692911
 MonoBehaviour:
@@ -110,7 +110,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"nest":{"source":"Embed","macro":null,"embed":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"\u9053\u5177-P","summary":null,"pan":{"x":100.3052,"y":144.4766},"zoom":1.0,"elements":[{"nest":{"source":"Macro","macro":0,"embed":null},"defaultValues":{},"position":{"x":-20.0,"y":59.0},"guid":"0b19d3cd-9b9c-472a-8d4c-4d1c9e3820a4","$version":"A","$type":"Bolt.SuperUnit"}],"$version":"A"}}}'
+    _json: '{"nest":{"source":"Embed","macro":null,"embed":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"\u9053\u5177-\u5927P","summary":null,"pan":{"x":162.7574,"y":184.2526},"zoom":1.0,"elements":[{"nest":{"source":"Macro","macro":0,"embed":null},"defaultValues":{},"position":{"x":118.0,"y":143.0},"guid":"c76efa6f-1ce0-49d8-a336-bdc8c0e4eae6","$version":"A","$type":"Bolt.SuperUnit"}],"$version":"A"}}}'
     _objectReferences:
     - {fileID: 11400000, guid: 1009e7f24c444994a92a282fffeabfa9, type: 2}
 --- !u!1 &7179033395272779539
@@ -183,7 +183,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 5a8ad73f644842e4b80fe37f6c2fd4cd, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 1fd236aaff2c17645bc9aec5026f9940, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
