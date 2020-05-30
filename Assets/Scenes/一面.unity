@@ -328,6 +328,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3403905810114858477, guid: 0b0d9f0c2f93c794285f6eb13ab10a3b,
+        type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"collection":{"$content":[{"name":"\u7981\u6b62\u79fb\u52a8","value":{"$content":[false,false,false,false],"$type":"System.Collections.Generic.List`1[[System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"$version":"A"},{"name":"\u79fb\u52a8\u901f\u5ea6-\u6b63\u5e38","value":{"$content":8,"$type":"System.Int32"},"$version":"A"},{"name":"\u79fb\u52a8\u901f\u5ea6-\u4f4e\u901f","value":{"$content":3,"$type":"System.Int32"},"$version":"A"},{"name":"\u5f53\u524d\u4f4e\u901f","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"\u5c04\u51fb\u9891\u7387","value":{"$content":6,"$type":"System.Int32"},"$version":"A"},{"name":"\u666e\u901a\u5f39","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"\u7279\u6b8a\u5f39","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Power","value":{"$content":1.0,"$type":"System.Single"},"$version":"A"},{"name":"\u547d\u6570","value":{"$content":8,"$type":"System.Int32"},"$version":"A"},{"name":"Bomb","value":{"$content":3,"$type":"System.Int32"},"$version":"A"},{"name":"Bomb\u4f24\u5bb3","value":{"$content":200.0,"$type":"System.Single"},"$version":"A"},{"name":"Bomb\u7279\u6548","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Point","value":{"$content":0,"$type":"System.Int32"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0b0d9f0c2f93c794285f6eb13ab10a3b, type: 3}
 --- !u!1 &1454954111
