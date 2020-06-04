@@ -70,7 +70,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 83b4a82e691cece458cade5824cfe0c7, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 1aaab78900951664994eff0f850a6084, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -95,7 +95,7 @@ GameObject:
   - component: {fileID: 2471253403099754697}
   - component: {fileID: 2471253403099754696}
   m_Layer: 0
-  m_Name: "Boss-\u7075\u68A6"
+  m_Name: "Boss-\u742A\u9732\u8BFA"
   m_TagString: "\u654C\u673A"
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -129,8 +129,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"\u521d\u59cb\u8840\u91cf","value":{"$content":2000,"$type":"System.Int32"},"$version":"A"},{"name":"\u5f53\u524d\u8840\u91cf","value":{"$content":20,"$type":"System.Int32"},"$version":"A"},{"name":"\u521d\u59cb\u7b26\u5361\u6570","value":{"$content":2,"$type":"System.Int32"},"$version":"A"},{"name":"\u5269\u4f59\u7b26\u5361\u6570","value":{"$content":0,"$type":"System.Int32"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
-    _objectReferences: []
+    _json: '{"declarations":{"collection":{"$content":[{"name":"\u521d\u59cb\u8840\u91cf","value":{"$content":2000,"$type":"System.Int32"},"$version":"A"},{"name":"\u5f53\u524d\u8840\u91cf","value":{"$content":20,"$type":"System.Int32"},"$version":"A"},{"name":"\u521d\u59cb\u7b26\u5361\u6570","value":{"$content":2,"$type":"System.Int32"},"$version":"A"},{"name":"\u5269\u4f59\u7b26\u5361\u6570","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"\u7acb\u7ed8-\u5e38","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"\u7acb\u7ed8-\u5f97\u610f","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"\u7acb\u7ed8-\u6012","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 2800000, guid: e04928024f9011e4cb11ff55b20e78e6, type: 3}
+    - {fileID: 2800000, guid: 6dec1dbaeceecbc4b823f4a43a078cb0, type: 3}
+    - {fileID: 2800000, guid: 2b9e4917c174fae4bad1659a3902b8b0, type: 3}
 --- !u!114 &2471253403099754711
 MonoBehaviour:
   m_ObjectHideFlags: 0

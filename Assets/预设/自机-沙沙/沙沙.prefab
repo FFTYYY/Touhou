@@ -130,11 +130,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _data:
     _json: '{"declarations":{"collection":{"$content":[{"name":"\u7981\u6b62\u79fb\u52a8","value":{"$content":[false,false,false,false],"$type":"System.Collections.Generic.List`1[[System.Boolean,
-      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"$version":"A"},{"name":"\u79fb\u52a8\u901f\u5ea6-\u6b63\u5e38","value":{"$content":8,"$type":"System.Int32"},"$version":"A"},{"name":"\u79fb\u52a8\u901f\u5ea6-\u4f4e\u901f","value":{"$content":3,"$type":"System.Int32"},"$version":"A"},{"name":"\u5f53\u524d\u4f4e\u901f","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"\u5c04\u51fb\u9891\u7387","value":{"$content":6,"$type":"System.Int32"},"$version":"A"},{"name":"\u666e\u901a\u5f39","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"\u7279\u6b8a\u5f39","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Power","value":{"$content":1.0,"$type":"System.Single"},"$version":"A"},{"name":"\u547d\u6570","value":{"$content":8,"$type":"System.Int32"},"$version":"A"},{"name":"Bomb","value":{"$content":3,"$type":"System.Int32"},"$version":"A"},{"name":"Bomb\u7279\u6548","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Bomb\u4f24\u5bb3","value":{"$content":400.0,"$type":"System.Single"},"$version":"A"},{"name":"Point","value":{"$content":0,"$type":"System.Int32"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"$version":"A"},{"name":"\u79fb\u52a8\u901f\u5ea6-\u6b63\u5e38","value":{"$content":8,"$type":"System.Int32"},"$version":"A"},{"name":"\u79fb\u52a8\u901f\u5ea6-\u4f4e\u901f","value":{"$content":3,"$type":"System.Int32"},"$version":"A"},{"name":"\u5f53\u524d\u4f4e\u901f","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"\u5c04\u51fb\u9891\u7387","value":{"$content":6,"$type":"System.Int32"},"$version":"A"},{"name":"\u666e\u901a\u5f39","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"\u7279\u6b8a\u5f39","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Power","value":{"$content":1.0,"$type":"System.Single"},"$version":"A"},{"name":"\u547d\u6570","value":{"$content":8,"$type":"System.Int32"},"$version":"A"},{"name":"Bomb","value":{"$content":3,"$type":"System.Int32"},"$version":"A"},{"name":"Bomb\u7279\u6548","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Bomb\u4f24\u5bb3","value":{"$content":400.0,"$type":"System.Single"},"$version":"A"},{"name":"Point","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"\u7acb\u7ed8-\u559c","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"\u7acb\u7ed8-\u5e38","value":{"$content":4,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"\u7acb\u7ed8-\u60b2","value":{"$content":5,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"\u7acb\u7ed8-\u60ca","value":{"$content":6,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 3538336460676372126, guid: b85fd66d4e3a9c44991258d192b2bd76, type: 3}
     - {fileID: 3538336460676372126, guid: d4ea952273c29d649b7de85417e68250, type: 3}
     - {fileID: 658891902251392849, guid: e67de86cae7c5214293eb4cce0d9f776, type: 3}
+    - {fileID: 2800000, guid: ce16db1e327bf2245b64d91755a86bc3, type: 3}
+    - {fileID: 2800000, guid: e13abfc47b922504b94a90a75980e98b, type: 3}
+    - {fileID: 2800000, guid: 65201752cb30e344999c4bf8888d8fa5, type: 3}
+    - {fileID: 2800000, guid: 1fb656c6883dd9d4fa8cb45dc931bc95, type: 3}
 --- !u!114 &1990505279
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -197,7 +201,7 @@ Transform:
   m_GameObject: {fileID: 4381884672976674359}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.4, y: 0.4, z: 1}
+  m_LocalScale: {x: 0.6, y: 0.6, z: 0}
   m_Children: []
   m_Father: {fileID: 3403905810114858387}
   m_RootOrder: 1
@@ -242,7 +246,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
